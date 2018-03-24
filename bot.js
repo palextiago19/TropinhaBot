@@ -26,19 +26,19 @@ client.on('message', message => {
     //title: "This is an embed",
     //url: "http://google.com",
     description: "Este servidor encontra-se em manutenção! \nObrigado pela compreensão!",
-    fields: [{
-        name: "Fields",
-        value: "They can have different fields with small headlines."
-      },
-      {
-        name: "Masked links",
-        value: "You can put [masked links](http://google.com) inside of rich embeds."
-      },
-      {
-        name: "Markdown",
-        value: "You can put all the *usual* **__Markdown__** inside of them."
-      }
-    ],
+    //fields: [{
+        //name: "Fields",
+        //value: "They can have different fields with small headlines."
+      //},
+      //{
+        //name: "Masked links",
+        //value: "You can put [masked links](http://google.com) inside of rich embeds."
+      //},
+      //{
+        //name: "Markdown",
+        //value: "You can put all the *usual* **__Markdown__** inside of them."
+      //}
+    //],
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
