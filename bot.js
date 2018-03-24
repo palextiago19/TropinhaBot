@@ -25,8 +25,7 @@ client.on('message', message => {
     },
     //title: "This is an embed",
     //url: "http://google.com",
-    description: "Este servidores encontra-se em manutenção!" + 
-            + "Obrigado pela compreensão!",
+    description: "Este servidores encontra-se em manutenção! \n Obrigado pela compreensão!",
     fields: [{
         name: "Fields",
         value: "They can have different fields with small headlines."
