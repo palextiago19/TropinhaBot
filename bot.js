@@ -23,9 +23,9 @@ client.on('message', message => {
       name: 'Manutenção!',
       icon_url: 'https://cdn.discordapp.com/attachments/427100723130531840/427100781255065600/X9eAmHm.png'
     },
-    title: "This is an embed",
-    url: "http://google.com",
-    description: "This is a test embed to showcase what they look like and what they can do.",
+    //title: "This is an embed",
+    //url: "http://google.com",
+    description: <p>"Este servidores encontra-se em manutenção!"</p> <p>"Obrigado pela compreensão!"</p>,
     fields: [{
         name: "Fields",
         value: "They can have different fields with small headlines."
