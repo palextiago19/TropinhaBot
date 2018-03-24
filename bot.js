@@ -6,10 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === '!Server') {
-        const send = require('quick.hook')
+    if (message.content === '!Server') 
         
-        send(message.channel, 'Server em Construção!',{name: 'Manutenção', icon: 'https://cdn.discordapp.com/attachments/427100723130531840/427100781255065600/X9eAmHm.png'})
+        message.channel.send(message.channel, 'Server em Construção!',{name: 'Manutenção', icon: 'https://cdn.discordapp.com/attachments/427100723130531840/427100781255065600/X9eAmHm.png'})
     	//message.reply('Server em Construção!');
   	}
 });
