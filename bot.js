@@ -20,12 +20,12 @@ client.on('message', message => {
         message.channel.send({embed: {
     color: 3447003,
     author: {
-      name: 'Manutenção!',
+      name: 'Servidor em Manutenção',
       icon_url: 'https://cdn.discordapp.com/attachments/427100723130531840/427100781255065600/X9eAmHm.png'
     },
     //title: "This is an embed",
     //url: "http://google.com",
-    description: "Este servidores encontra-se em manutenção! \n Obrigado pela compreensão!",
+    description: "Este servidor encontra-se em manutenção! \nObrigado pela compreensão!",
     fields: [{
         name: "Fields",
         value: "They can have different fields with small headlines."
