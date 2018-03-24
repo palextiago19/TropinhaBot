@@ -4,7 +4,6 @@ const client = new Discord.Client();
 client.on('ready', () => {
     console.log('Estou Pronto!');
 });
-client.user.setUsername("Manutenção");
 client.on('message', message => {
     if (message.content === '!Server') 
         
@@ -21,8 +20,8 @@ client.on('message', message => {
         message.channel.send({embed: {
     color: 3447003,
     author: {
-      name: client.user.username,
-      icon_url: client.user.avatarURL
+      name: 'Manutenção!',
+      icon_url: 'https://cdn.discordapp.com/attachments/427100723130531840/427100781255065600/X9eAmHm.png'
     },
     title: "This is an embed",
     url: "http://google.com",
