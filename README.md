@@ -1,2 +1,2 @@
-# super-super-heroku-bot
+# TropinhaBot
 Bot using heroku, 24/7!
