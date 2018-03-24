@@ -16,7 +16,7 @@ client.on('message', message => {
 }});
     
     //message.reply('Server em Construção!');
-  	}
+  	//}
 });
 
 // THIS  MUST  BE  THIS  WAY
